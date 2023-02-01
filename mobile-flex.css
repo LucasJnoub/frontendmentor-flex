@@ -1,8 +1,10 @@
-@media(min-width:53px) and (max-width:1000px){
+@media(min-width:53px) and (max-width:600px){
   *{
     margin: 0;
     padding: 0;
     }
+
+  
   
   .container{
     display: flex;
@@ -11,8 +13,10 @@
     margin-bottom: 90px;
     gap: 50px;
     height:550px;
-    margin-bottom: 100px;
-    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    height: 100%;
+    
   }
   
   .description{
@@ -24,6 +28,12 @@
     margin-bottom: 20px;
   
   }
+  .rating{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    
+  }
 
 .star-1,
 .star-2,
@@ -32,17 +42,26 @@
   text-align: center;
   margin: 0 auto;
   margin-bottom: 20px;
-}
+  width: 90%;
+  box-sizing: border-box;
+  }
 
 main{
-  width: 80%;
+  width: 100%; 
+  box-sizing: border-box;
+  margin-bottom: 100px;
+
 }
 
 .testimonials{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 90px;
+  padding: 10px;
+ 
+ 
+
+
 }
 
 .person-1,
@@ -52,7 +71,6 @@ main{
   width: 70%;
   align-self: center;
 }
-
 
 }
 
